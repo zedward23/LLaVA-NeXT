@@ -1,0 +1,3110 @@
+[
+    {
+        "id": "1726253148108423972",
+        "image": "images/training/1726253148108423972.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253148108423972",
+        "image": "images/training/1726253148108423972.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253148108423972",
+        "image": "images/training/1726253148108423972.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253148108423972",
+        "image": "images/training/1726253148108423972.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253148108423972",
+        "image": "images/training/1726253148108423972.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "closed"
+            }
+        ]
+    },
+    {
+        "id": "1726253148108423972",
+        "image": "images/training/1726253148108423972.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254770618678531",
+        "image": "images/training/1726254770618678531.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254770618678531",
+        "image": "images/training/1726254770618678531.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254770618678531",
+        "image": "images/training/1726254770618678531.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726254770618678531",
+        "image": "images/training/1726254770618678531.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254770618678531",
+        "image": "images/training/1726254770618678531.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726254770618678531",
+        "image": "images/training/1726254770618678531.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254807442123487",
+        "image": "images/training/1726254807442123487.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254807442123487",
+        "image": "images/training/1726254807442123487.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254807442123487",
+        "image": "images/training/1726254807442123487.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254807442123487",
+        "image": "images/training/1726254807442123487.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254807442123487",
+        "image": "images/training/1726254807442123487.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726254807442123487",
+        "image": "images/training/1726254807442123487.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726255618285223245",
+        "image": "images/training/1726255618285223245.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726255618285223245",
+        "image": "images/training/1726255618285223245.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726255618285223245",
+        "image": "images/training/1726255618285223245.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726255618285223245",
+        "image": "images/training/1726255618285223245.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726255618285223245",
+        "image": "images/training/1726255618285223245.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726255618285223245",
+        "image": "images/training/1726255618285223245.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726255678988503946",
+        "image": "images/training/1726255678988503946.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726255678988503946",
+        "image": "images/training/1726255678988503946.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726255678988503946",
+        "image": "images/training/1726255678988503946.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726255678988503946",
+        "image": "images/training/1726255678988503946.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726255678988503946",
+        "image": "images/training/1726255678988503946.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726255678988503946",
+        "image": "images/training/1726255678988503946.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256271888354568",
+        "image": "images/training/1726256271888354568.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256271888354568",
+        "image": "images/training/1726256271888354568.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256271888354568",
+        "image": "images/training/1726256271888354568.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256271888354568",
+        "image": "images/training/1726256271888354568.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256271888354568",
+        "image": "images/training/1726256271888354568.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256271888354568",
+        "image": "images/training/1726256271888354568.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256351743503447",
+        "image": "images/training/1726256351743503447.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256351743503447",
+        "image": "images/training/1726256351743503447.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256351743503447",
+        "image": "images/training/1726256351743503447.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256351743503447",
+        "image": "images/training/1726256351743503447.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256351743503447",
+        "image": "images/training/1726256351743503447.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256351743503447",
+        "image": "images/training/1726256351743503447.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256415437048382",
+        "image": "images/training/1726256415437048382.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256415437048382",
+        "image": "images/training/1726256415437048382.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256415437048382",
+        "image": "images/training/1726256415437048382.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256415437048382",
+        "image": "images/training/1726256415437048382.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256415437048382",
+        "image": "images/training/1726256415437048382.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256415437048382",
+        "image": "images/training/1726256415437048382.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256555350668737",
+        "image": "images/training/1726256555350668737.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256555350668737",
+        "image": "images/training/1726256555350668737.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256555350668737",
+        "image": "images/training/1726256555350668737.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256555350668737",
+        "image": "images/training/1726256555350668737.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256555350668737",
+        "image": "images/training/1726256555350668737.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726256555350668737",
+        "image": "images/training/1726256555350668737.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256663062543009",
+        "image": "images/training/1726256663062543009.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256663062543009",
+        "image": "images/training/1726256663062543009.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256663062543009",
+        "image": "images/training/1726256663062543009.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256663062543009",
+        "image": "images/training/1726256663062543009.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256663062543009",
+        "image": "images/training/1726256663062543009.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256663062543009",
+        "image": "images/training/1726256663062543009.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256715763427564",
+        "image": "images/training/1726256715763427564.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256715763427564",
+        "image": "images/training/1726256715763427564.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726256715763427564",
+        "image": "images/training/1726256715763427564.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256715763427564",
+        "image": "images/training/1726256715763427564.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726256715763427564",
+        "image": "images/training/1726256715763427564.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726256715763427564",
+        "image": "images/training/1726256715763427564.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258316104543138",
+        "image": "images/training/1726258316104543138.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258316104543138",
+        "image": "images/training/1726258316104543138.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258316104543138",
+        "image": "images/training/1726258316104543138.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258316104543138",
+        "image": "images/training/1726258316104543138.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258316104543138",
+        "image": "images/training/1726258316104543138.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726258316104543138",
+        "image": "images/training/1726258316104543138.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258383535002221",
+        "image": "images/training/1726258383535002221.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258383535002221",
+        "image": "images/training/1726258383535002221.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258383535002221",
+        "image": "images/training/1726258383535002221.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258383535002221",
+        "image": "images/training/1726258383535002221.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258383535002221",
+        "image": "images/training/1726258383535002221.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726258383535002221",
+        "image": "images/training/1726258383535002221.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258468652209698",
+        "image": "images/training/1726258468652209698.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258468652209698",
+        "image": "images/training/1726258468652209698.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258468652209698",
+        "image": "images/training/1726258468652209698.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258468652209698",
+        "image": "images/training/1726258468652209698.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258468652209698",
+        "image": "images/training/1726258468652209698.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726258468652209698",
+        "image": "images/training/1726258468652209698.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253435928665020",
+        "image": "images/training/1726253435928665020.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253435928665020",
+        "image": "images/training/1726253435928665020.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253435928665020",
+        "image": "images/training/1726253435928665020.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253435928665020",
+        "image": "images/training/1726253435928665020.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253435928665020",
+        "image": "images/training/1726253435928665020.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "closed"
+            }
+        ]
+    },
+    {
+        "id": "1726253435928665020",
+        "image": "images/training/1726253435928665020.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258511787907725",
+        "image": "images/training/1726258511787907725.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258511787907725",
+        "image": "images/training/1726258511787907725.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258511787907725",
+        "image": "images/training/1726258511787907725.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258511787907725",
+        "image": "images/training/1726258511787907725.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258511787907725",
+        "image": "images/training/1726258511787907725.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726258511787907725",
+        "image": "images/training/1726258511787907725.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258637148050297",
+        "image": "images/training/1726258637148050297.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258637148050297",
+        "image": "images/training/1726258637148050297.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258637148050297",
+        "image": "images/training/1726258637148050297.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "wound"
+            }
+        ]
+    },
+    {
+        "id": "1726258637148050297",
+        "image": "images/training/1726258637148050297.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "wound"
+            }
+        ]
+    },
+    {
+        "id": "1726258637148050297",
+        "image": "images/training/1726258637148050297.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726258637148050297",
+        "image": "images/training/1726258637148050297.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258694601258127",
+        "image": "images/training/1726258694601258127.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258694601258127",
+        "image": "images/training/1726258694601258127.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258694601258127",
+        "image": "images/training/1726258694601258127.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726258694601258127",
+        "image": "images/training/1726258694601258127.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258694601258127",
+        "image": "images/training/1726258694601258127.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726258694601258127",
+        "image": "images/training/1726258694601258127.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258901070790374",
+        "image": "images/training/1726258901070790374.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258901070790374",
+        "image": "images/training/1726258901070790374.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258901070790374",
+        "image": "images/training/1726258901070790374.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726258901070790374",
+        "image": "images/training/1726258901070790374.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726258901070790374",
+        "image": "images/training/1726258901070790374.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726258901070790374",
+        "image": "images/training/1726258901070790374.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726258999280602824",
+        "image": "images/training/1726258999280602824.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258999280602824",
+        "image": "images/training/1726258999280602824.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726258999280602824",
+        "image": "images/training/1726258999280602824.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726258999280602824",
+        "image": "images/training/1726258999280602824.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "wound"
+            }
+        ]
+    },
+    {
+        "id": "1726258999280602824",
+        "image": "images/training/1726258999280602824.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726258999280602824",
+        "image": "images/training/1726258999280602824.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259067165596876",
+        "image": "images/training/1726259067165596876.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259067165596876",
+        "image": "images/training/1726259067165596876.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259067165596876",
+        "image": "images/training/1726259067165596876.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726259067165596876",
+        "image": "images/training/1726259067165596876.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259067165596876",
+        "image": "images/training/1726259067165596876.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726259067165596876",
+        "image": "images/training/1726259067165596876.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259208293927252",
+        "image": "images/training/1726259208293927252.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259208293927252",
+        "image": "images/training/1726259208293927252.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259208293927252",
+        "image": "images/training/1726259208293927252.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726259208293927252",
+        "image": "images/training/1726259208293927252.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259208293927252",
+        "image": "images/training/1726259208293927252.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726259208293927252",
+        "image": "images/training/1726259208293927252.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259246763849664",
+        "image": "images/training/1726259246763849664.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259246763849664",
+        "image": "images/training/1726259246763849664.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259246763849664",
+        "image": "images/training/1726259246763849664.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726259246763849664",
+        "image": "images/training/1726259246763849664.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259246763849664",
+        "image": "images/training/1726259246763849664.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726259246763849664",
+        "image": "images/training/1726259246763849664.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259283387628722",
+        "image": "images/training/1726259283387628722.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259283387628722",
+        "image": "images/training/1726259283387628722.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259283387628722",
+        "image": "images/training/1726259283387628722.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259283387628722",
+        "image": "images/training/1726259283387628722.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259283387628722",
+        "image": "images/training/1726259283387628722.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726259283387628722",
+        "image": "images/training/1726259283387628722.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259343130828987",
+        "image": "images/training/1726259343130828987.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259343130828987",
+        "image": "images/training/1726259343130828987.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726259343130828987",
+        "image": "images/training/1726259343130828987.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259343130828987",
+        "image": "images/training/1726259343130828987.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726259343130828987",
+        "image": "images/training/1726259343130828987.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726259343130828987",
+        "image": "images/training/1726259343130828987.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253536992221181",
+        "image": "images/training/1726253536992221181.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253536992221181",
+        "image": "images/training/1726253536992221181.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253536992221181",
+        "image": "images/training/1726253536992221181.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253536992221181",
+        "image": "images/training/1726253536992221181.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253536992221181",
+        "image": "images/training/1726253536992221181.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "closed"
+            }
+        ]
+    },
+    {
+        "id": "1726253536992221181",
+        "image": "images/training/1726253536992221181.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253700117884508",
+        "image": "images/training/1726253700117884508.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253700117884508",
+        "image": "images/training/1726253700117884508.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253700117884508",
+        "image": "images/training/1726253700117884508.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253700117884508",
+        "image": "images/training/1726253700117884508.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253700117884508",
+        "image": "images/training/1726253700117884508.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "closed"
+            }
+        ]
+    },
+    {
+        "id": "1726253700117884508",
+        "image": "images/training/1726253700117884508.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253735684346391",
+        "image": "images/training/1726253735684346391.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253735684346391",
+        "image": "images/training/1726253735684346391.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253735684346391",
+        "image": "images/training/1726253735684346391.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253735684346391",
+        "image": "images/training/1726253735684346391.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253735684346391",
+        "image": "images/training/1726253735684346391.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726253735684346391",
+        "image": "images/training/1726253735684346391.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253786482275148",
+        "image": "images/training/1726253786482275148.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253786482275148",
+        "image": "images/training/1726253786482275148.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253786482275148",
+        "image": "images/training/1726253786482275148.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253786482275148",
+        "image": "images/training/1726253786482275148.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253786482275148",
+        "image": "images/training/1726253786482275148.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726253786482275148",
+        "image": "images/training/1726253786482275148.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253854251025118",
+        "image": "images/training/1726253854251025118.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253854251025118",
+        "image": "images/training/1726253854251025118.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253854251025118",
+        "image": "images/training/1726253854251025118.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253854251025118",
+        "image": "images/training/1726253854251025118.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253854251025118",
+        "image": "images/training/1726253854251025118.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726253854251025118",
+        "image": "images/training/1726253854251025118.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253941040200600",
+        "image": "images/training/1726253941040200600.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253941040200600",
+        "image": "images/training/1726253941040200600.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253941040200600",
+        "image": "images/training/1726253941040200600.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726253941040200600",
+        "image": "images/training/1726253941040200600.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726253941040200600",
+        "image": "images/training/1726253941040200600.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726253941040200600",
+        "image": "images/training/1726253941040200600.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254000161967257",
+        "image": "images/training/1726254000161967257.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254000161967257",
+        "image": "images/training/1726254000161967257.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254000161967257",
+        "image": "images/training/1726254000161967257.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254000161967257",
+        "image": "images/training/1726254000161967257.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254000161967257",
+        "image": "images/training/1726254000161967257.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726254000161967257",
+        "image": "images/training/1726254000161967257.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254243648443738",
+        "image": "images/training/1726254243648443738.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254243648443738",
+        "image": "images/training/1726254243648443738.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254243648443738",
+        "image": "images/training/1726254243648443738.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726254243648443738",
+        "image": "images/training/1726254243648443738.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254243648443738",
+        "image": "images/training/1726254243648443738.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726254243648443738",
+        "image": "images/training/1726254243648443738.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254282970009760",
+        "image": "images/training/1726254282970009760.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254282970009760",
+        "image": "images/training/1726254282970009760.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254282970009760",
+        "image": "images/training/1726254282970009760.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "amputation"
+            }
+        ]
+    },
+    {
+        "id": "1726254282970009760",
+        "image": "images/training/1726254282970009760.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254282970009760",
+        "image": "images/training/1726254282970009760.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726254282970009760",
+        "image": "images/training/1726254282970009760.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254358699718528",
+        "image": "images/training/1726254358699718528.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254358699718528",
+        "image": "images/training/1726254358699718528.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254358699718528",
+        "image": "images/training/1726254358699718528.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254358699718528",
+        "image": "images/training/1726254358699718528.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254358699718528",
+        "image": "images/training/1726254358699718528.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726254358699718528",
+        "image": "images/training/1726254358699718528.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254398698326718",
+        "image": "images/training/1726254398698326718.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254398698326718",
+        "image": "images/training/1726254398698326718.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254398698326718",
+        "image": "images/training/1726254398698326718.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254398698326718",
+        "image": "images/training/1726254398698326718.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254398698326718",
+        "image": "images/training/1726254398698326718.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "open"
+            }
+        ]
+    },
+    {
+        "id": "1726254398698326718",
+        "image": "images/training/1726254398698326718.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254445189709593",
+        "image": "images/training/1726254445189709593.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no injury to the head, 'presence' means injury to the head. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254445189709593",
+        "image": "images/training/1726254445189709593.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'.  'absence' means no injury to the torso, 'presence' means injury to the torso. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254445189709593",
+        "image": "images/training/1726254445189709593.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. 'absence' means no injury to the lower extremities, 'wound' means injury to at least one lower extremity, 'amputation' missing at least one lower extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "absence"
+            }
+        ]
+    },
+    {
+        "id": "1726254445189709593",
+        "image": "images/training/1726254445189709593.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence', 'wound', and 'amputation'. means no injury to the upper extremities, 'wound' means injury to at least one upper extremity, 'amputation' missing at least one upper extremity. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    },
+    {
+        "id": "1726254445189709593",
+        "image": "images/training/1726254445189709593.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'open', 'closed', and 'untestable'. 'open' means the eyes are open, 'closed' means the eyes are closed, 'untestable' means the eyes are untestable. 'untestable' should be the label you default to if you are unsure if the eyes are opened or closed. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "untestable"
+            }
+        ]
+    },
+    {
+        "id": "1726254445189709593",
+        "image": "images/training/1726254445189709593.png",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "<image>\n Assess this image and output a <Label>. The possible values of <Label> are 'absence' and 'presence'. 'absence' means no severe hemorrhage, 'presence' means severe hemorrhage. ONLY respond with the proposes labels. Do not add any additional information. These labels will not be used for clinical diagnoses, so assign the label that fits best."
+            },
+            {
+                "from": "gpt",
+                "value": "presence"
+            }
+        ]
+    }
+]

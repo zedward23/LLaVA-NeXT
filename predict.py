@@ -110,7 +110,7 @@ class Predictor(BasePredictor):
         keywords = [stop_str]
         stopping_criteria = KeywordsStoppingCriteria(keywords, self.tokenizer, input_ids)
         streamer = TextIteratorStreamer(self.tokenizer, skip_prompt=True, timeout=20.0)
-
+        print("Hello")
         with torch.inference_mode():
             thread = Thread(
                 target=self.model.generate,
@@ -135,6 +135,7 @@ class Predictor(BasePredictor):
             if prepend_space:
                 yield " "
             thread.join()
+            print(new_text)
 
 
 def load_image(image_file):

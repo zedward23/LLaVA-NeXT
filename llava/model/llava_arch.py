@@ -94,12 +94,12 @@ class LlavaMetaModel:
         self.config.mm_patch_merge_type = mm_patch_merge_type
 
         
-        if not hasattr(self.config, 'add_faster_video'):
-            if model_args.add_faster_video:
-                embed_std = 1 / torch.sqrt(torch.tensor(self.config.hidden_size, dtype=self.dtype))
-                self.faster_token = nn.Parameter(
-                    torch.randn(self.config.hidden_size, dtype=self.dtype) * embed_std
-                )
+        #if not hasattr(self.config, 'add_faster_video'):  # review with marcel - i commented this out 
+        #    if model_args.add_faster_video:
+        #        embed_std = 1 / torch.sqrt(torch.tensor(self.config.hidden_size, dtype=self.dtype))
+        #        self.faster_token = nn.Parameter(
+        #            torch.randn(self.config.hidden_size, dtype=self.dtype) * embed_std
+        #        )
 
         if getattr(self, "mm_projector", None) is None:
             self.mm_projector = build_vision_projector(self.config, vision_cfg=vision_tower.config)

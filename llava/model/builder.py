@@ -23,6 +23,44 @@ from llava.model import *
 from llava.constants import DEFAULT_IMAGE_PATCH_TOKEN, DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN
 from llava.utils import rank0_print
 
+def lxr_load_llava_next_ov(model_path, model_base, model_name, load_8bit=False, load_4bit=False, device_map="auto", attn_implementation="flash_attention_2", customized_config=None, overwrite_config=None, **kwargs):
+    from llava.model.language_model.llava_qwen import LlavaQwenConfig
+    kwargs["device_map"] = device_map
+    kwargs["torch_dtype"] = torch.float16
+
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = LlavaQwenForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, attn_implementation=attn_implementation, **kwargs)
+
+    rank0_print(f"Model Class: {model.__class__.__name__}")
+    image_processor = None
+
+    if "llava" in model_name.lower():
+        mm_use_im_start_end = getattr(model.config, "mm_use_im_start_end", False)
+        mm_use_im_patch_token = getattr(model.config, "mm_use_im_patch_token", True)
+        if mm_use_im_patch_token:
+            tokenizer.add_tokens([DEFAULT_IMAGE_PATCH_TOKEN], special_tokens=True)
+        if mm_use_im_start_end:
+            tokenizer.add_tokens([DEFAULT_IM_START_TOKEN, DEFAULT_IM_END_TOKEN], special_tokens=True)
+        model.resize_token_embeddings(len(tokenizer))
+
+        vision_tower = model.get_vision_tower()
+        if not vision_tower.is_loaded:
+            vision_tower.load_model(device_map=device_map)
+        if device_map != "auto":
+            vision_tower.to(device="cuda", dtype=torch.float16)
+        image_processor = vision_tower.image_processor
+
+    if hasattr(model.config, "max_sequence_length"):
+        context_len = model.config.max_sequence_length
+    elif hasattr(model.config, "max_position_embeddings"):
+        context_len = model.config.max_position_embeddings
+    elif hasattr(model.config, "tokenizer_model_max_length"):
+        context_len = model.config.tokenizer_model_max_length
+    else:
+        context_len = 2048
+
+    return tokenizer, model, image_processor, context_len
+
 
 def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, load_4bit=False, device_map="auto", torch_dtype="float16",attn_implementation="flash_attention_2", customized_config=None, overwrite_config=None, **kwargs):
     kwargs["device_map"] = device_map
@@ -48,7 +86,7 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             kwargs.pop("multimodal")
     else:
         is_multimodal = False
-
+    print("MODEL_NAME IS : " + model_name)
     if "llava" in model_name.lower() or is_multimodal:
         # Load LLaVA model
         if "lora" in model_name.lower() and model_base is None:
@@ -77,12 +115,20 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 lora_cfg_pretrained = LlavaGemmaConfig.from_pretrained(model_path)
                 tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False)
                 model = LlavaGemmaForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, attn_implementation=attn_implementation, **kwargs)
+            elif "qwen" in model_name.lower(): #TODO ADDED BY EDWARD
+                from llava.model.language_model.llava_qwen import LlavaQwenConfig
+
+                lora_cfg_pretrained = LlavaQwenConfig.from_pretrained(model_path)
+                
+                tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False)
+                model = LlavaQwenForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, attn_implementation=attn_implementation, **kwargs)
             else:
                 from llava.model.language_model.llava_llama import LlavaConfig
-
+                print("Loading LlavaLlamaForCausalLM with lora weights")
                 lora_cfg_pretrained = LlavaConfig.from_pretrained(model_path)
                 tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False)
                 model = LlavaLlamaForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=lora_cfg_pretrained, attn_implementation=attn_implementation, **kwargs)
+            
 
             token_num, tokem_dim = model.lm_head.out_features, model.lm_head.in_features
             if model.lm_head.weight.shape[0] != token_num:
@@ -104,6 +150,9 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
             non_lora_trainables = {(k[11:] if k.startswith("base_model.") else k): v for k, v in non_lora_trainables.items()}
             if any(k.startswith("model.model.") for k in non_lora_trainables):
                 non_lora_trainables = {(k[6:] if k.startswith("model.") else k): v for k, v in non_lora_trainables.items()}
+            
+            print(type(model))
+            
             model.load_state_dict(non_lora_trainables, strict=False)
 
             from peft import PeftModel
@@ -127,6 +176,14 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False)
                 cfg_pretrained = AutoConfig.from_pretrained(model_path)
                 model = LlavaGemmaForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, attn_implementation=attn_implementation, **kwargs)
+            elif "qwen" in model_name.lower():
+                from llava.model.language_model.llava_qwen import LlavaQwenConfig
+                tokenizer = AutoTokenizer.from_pretrained(model_base, use_fast=False)
+                cfg_pretrained = AutoConfig.from_pretrained(model_path)
+                lora_cfg_pretrained = LlavaQwenConfig.from_pretrained(model_path)
+                print(cfg_pretrained)
+                print(lora_cfg_pretrained)
+                model = LlavaQwenForCausalLM.from_pretrained(model_base, low_cpu_mem_usage=True, config=cfg_pretrained, attn_implementation=attn_implementation, **kwargs)
             elif (
                 "wizardlm-2" in model_name.lower()
                 and "vicuna" in model_name.lower()
@@ -204,6 +261,8 @@ def load_pretrained_model(model_path, model_base, model_name, load_8bit=False, l
                 model = LlavaLlamaForCausalLM.from_pretrained(model_path, low_cpu_mem_usage=True, attn_implementation=attn_implementation, config=llava_cfg, **kwargs)
 
             elif "qwen" in model_name.lower() or "quyen" in model_name.lower():
+                print("Loading Qwen model *******************")
+                print(model_path)
                 tokenizer = AutoTokenizer.from_pretrained(model_path)
                 if "moe" in model_name.lower() or "A14B" in model_name.lower():
                     from llava.model.language_model.llava_qwen_moe import LlavaQwenMoeConfig
